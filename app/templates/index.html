@@ -1,11 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/app/static/style.css">
+
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="header">
+        <span id="logo">
+            <img src="/app/static/img/gatito02.png" alt="">
+            <p id="logo-text">メニュー</p>
+        </span>
+        <span id="links">
+            <img src="/app/static/img/external-link.svg" alt="">
+            <img src="/app/static/img/settings.svg" alt="">
+        </span>
+    </div>
+
+    <section class="dashboard">
+
+        <div class="sumary">
+
+            <span id="title-menu">
+                <img src="/app/static/img/gatito02.png" alt="">
+                <h3>Your menu</h3>
+                <p>Summary</p>
+            </span>
+
+            <span id="order-info">
+                <h5>Date: monday, 10:00AM, xx/xx/xx</h5>
+                <h5>Code:</h5>
+
+                <div class="orders">
+
+                    <div id="order">
+                        <img src="" alt="">
+                        <span id="food">
+                            <h5>Food name</h5>
+                            <h5>$00.00</h5>
+                        </span>
+                        <span id="add-minus">
+                            <button>-</button>
+                            <h5>1</h5>
+                            <button>+</button>
+                        </span>
+
+                    </div>
+                    <h3>Total: $00.00</h3>
+                </div>
+                
+                <button>Checkout -></button>
+
+            </span>
+
+        </div>
+
+
+        <div class="menu">
+
+            <img src="/app/static/img/logo.svg" alt="">
+
+            <div class="to-pick">
+
+                <span id="filter">
+                    <button>Cakes</button>
+                    <!-- Adicionar filtros no settings -->
+                </span>
+
+                <div class="catalog">
+
+                    <span class="und">
+                        <img src="" alt="">
+
+                        <span>
+                            <h5>Food name</h5>
+                            <h5>$00.00</h5>
+                        </span>
+
+                        <p>mini description</p>
+
+                        <span id="add-minus">
+                            <button>-</button>
+                            <h5>1</h5>
+                            <button>+</button>
+                        </span>
+                        
+                    </span>
+                </div>
+
+            </div>
+
+            <footer>
+                <p>©Copyright メニュー. Todos os direitos reservados a Ângela S. <3</p>
+            </footer>
+
+        </div>
+
+        <div class="liquids">
+
+            <span id="filter">
+                <button>Tea</button>
+                <!-- Adicionar filtros no settings -->
+            </span>
+
+            <div id="to-pick-liquids">
+
+                <span class="und-liquids">
+                    <img src="" alt="">
+
+                    <span>
+                        <h5>Food name</h5>
+                        <h5>$00.00</h5>
+                    </span>
+
+                    <p>mini description</p>
+
+                    <span id="add-minus">
+                        <button>-</button>
+                        <h5>1</h5>
+                        <button>+</button>
+                    </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
 </body>
 </html>
